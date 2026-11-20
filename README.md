@@ -1,2 +1,4 @@
-# RustIDA
-im just trying to copy IDA PRO in rust
+<div align="center">
+
+  # ****RustIDA****
+  im just trying to make ida pro in rust
