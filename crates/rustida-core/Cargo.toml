@@ -1,0 +1,11 @@
+[package]
+name = "rustida-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Fundamental types, traits and errors for RustIDA"
+publish = false
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true

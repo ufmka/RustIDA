@@ -1,0 +1,17 @@
+[package]
+name = "rustida-project"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Project manifests and persistence for RustIDA"
+publish = false
+
+[dependencies]
+rustida-core = { path = "../rustida-core" }
+rustida-loader = { path = "../rustida-loader" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

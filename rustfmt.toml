@@ -1,0 +1,6 @@
+# RustIDA formatting configuration.
+# Keep the style boring and stable; reformat the whole workspace in one commit.
+edition = "2024"
+max_width = 100
+newline_style = "Unix"
+use_field_init_shorthand = true
